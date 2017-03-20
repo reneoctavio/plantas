@@ -76,3 +76,18 @@ Supplemental Material for the paper 'Visual Recognition of Plant Species in the 
 Some of the images of Internet dataset may have copyright. Training and using recognition model for research or non-commercial use may constitute fair use of data. We do not host any images from the Internet dataset.
 
 All code is under MIT license, unless stated otherwise in the header of the code.
+
+## Citation
+
+If the Plantas database was useful in your publications, please cite:
+
+    @inproceedings{plantas-db-2016,
+    author={Dias, Ren{\'e} Octavio Queiroz and Borges, D{\'i}bio Leandro},
+    booktitle={2016 IEEE International Symposium on Multimedia (ISM)},
+    title={Recognizing Plant Species in the Wild: Deep Learning Results and a New Database},
+    year={2016},
+    pages={197-202},
+    doi={10.1109/ISM.2016.0047},
+    isbn={978-1-5090-4571-6/16},
+    url={https://doi.org/10.1109/ISM.2016.0047},
+    month={Dec},}
