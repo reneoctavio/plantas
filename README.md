@@ -6,11 +6,11 @@ The Plantas image database is composed by 9,398 images in the Plantas50Basic sub
 ## Download
 You can use the python downloader that will automatically download the whole database to your computer. The total size is about 16GB and you should have at least 32GB free for the download and merge operations.
 
-    To save the dataset in the same directory of the script (`files_url_hashes.txt` also must be in the same directory), run:
-    `python download_plantas50.py`
-    
-    To save in another directory, run:
-    `python download_plantas50.py /path/to/files_url_hashes.txt /path/to/dir`
+To save the dataset in the same directory of the script (`files_url_hashes.txt` also must be in the same directory), run:
+- `python download_plantas50.py`
+
+To save in another directory, run:
+- `python download_plantas50.py /path/to/files_url_hashes.txt /path/to/dir`
 
 You can also access: <https://1drv.ms/f/s!AjZCiYkckpt_g-YzIOQ4FWiegQXVtQ> and download from there.
 Then you can run `cat Plantas50.tar.part* > Plantas50.tar` or in Windows `copy /b Plantas50.tar.part* Plantas50.tar` and you'll be ready to go!
@@ -79,7 +79,7 @@ Supplemental Material for the paper 'Visual Recognition of Plant Species in the 
 
 ## Legal
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Plantas50Basic and Plantas50Extra</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/reneoctavio" property="cc:attributionName" rel="cc:attributionURL">Rene Octavio Queiroz Dias</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Plantas50Basic and Plantas50Extra</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/reneoctavio" property="cc:attributionName" rel="cc:attributionURL">Rene Octavio Queiroz Dias</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 Some images of Plantas50Internet subset may have copyright. Training and using recognition model for research or non-commercial use may constitute fair use of data.
 
