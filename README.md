@@ -6,14 +6,21 @@ The Plantas image database is composed by 9,398 images in the Plantas50Basic sub
 ## Download
 You can use the python downloader that will automatically download the whole database to your computer. The total size is about 16GB and you should have at least 32GB free for the download and merge operations.
 
-To save the dataset in the same directory of the script (`files_url_hashes.txt` also must be in the same directory), run:
+To save the dataset in the same directory of the script, run:
 - `python download_plantas50.py`
 
 To save in another directory, run:
-- `python download_plantas50.py /path/to/files_url_hashes.txt /path/to/dir`
+- `python download_plantas50.py /path/to/dir`
 
-You can also access: <https://1drv.ms/f/s!AjZCiYkckpt_g-YzIOQ4FWiegQXVtQ> and download from there.
-Then you can run `cat Plantas50.tar.part* > Plantas50.tar` or in Windows `copy /b Plantas50.tar.part* Plantas50.tar` and you'll be ready to go!
+You can also access: <https://1drv.ms/f/s!AjZCiYkckpt_g-cafayn0qe-FyIr9g> and download from there.
+Then you can run:
+- `cat Plantas50.tar.part* > Plantas50.tar`
+
+or in Windows 
+
+- `copy /b Plantas50.tar.part* Plantas50.tar` 
+
+and you'll be ready to go!
 
 BY DOWNLOADING YOU ACCEPT TO USE THE INTERNET SUBSET FOR RESEARCH OR NON-COMMERCIAL USE ONLY. SEE LEGAL SECTION.
 
