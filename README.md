@@ -24,13 +24,20 @@ and you'll be ready to go!
 
 BY DOWNLOADING YOU ACCEPT TO USE THE INTERNET SUBSET FOR RESEARCH OR NON-COMMERCIAL USE ONLY. SEE LEGAL SECTION.
 
+## Example
+We finetuned a Mobile v2 model Plantas50 using Tensorflow and Keras as a simple example. You can check the [notebook](https://github.com/reneoctavio/plantas/blob/master/TF-MobileV2-Plantas50.ipynb).
+
+You can create TFRecord files by using our script:
+- `python prepare_tfrecord_plantas50.py /path/to/Plantas50` or
+- `python prepare_tfrecord_plantas50.py /path/to/Plantas50 HeightxWidth`
+
 ## Supplemental Material
 
 Supplemental Material for the paper 'Visual Recognition of Plant Species in the Wild' can be found in the paper-data folder.
 
 ## Details
 
-| Label                               | Basic | Extra | Internet | All  |
+| Label                               | Basic | Extra | Internet | Extended |
 |-------------------------------------|------:|------:|---------:|-----:|
 | Agave americana 'Marginata'         | 201  | 0        | 240      | 441  |
 | Agave angustifolia                  | 236  | 4        | 370      | 610  |
@@ -94,7 +101,7 @@ All code is under MIT license, unless stated otherwise in the header of the code
 
 ## Citation
 
-If the Plantas database was useful in your publications, please cite:
+If the Plantas50 database was useful in your publications, please cite:
 
     @inproceedings{plantas-db-2016,
     author={Dias, Ren{\'e} Octavio Queiroz and Borges, D{\'i}bio Leandro},
